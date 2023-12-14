@@ -5,11 +5,13 @@ import './index.css'
 import Education from './Education.jsx'
 import Experience from './Experience.jsx'
 import Geninfo from './Geninfo.jsx'
+import Top from './Top.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Top />
+    <Geninfo />
     <Education />
     <Experience />
-    <Geninfo />
   </React.StrictMode>,
 )
