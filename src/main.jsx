@@ -1,17 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import Education from './Education.jsx'
-import Experience from './Experience.jsx'
-import Geninfo from './Geninfo.jsx'
-import Top from './Top.jsx'
+import Form from './components/Form.jsx'
+import Top from './components/Top.jsx'
+import Bot from './components/Bot.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Top />
-    <Geninfo />
-    <Education />
-    <Experience />
+    <Form />
+    <Bot />
   </React.StrictMode>,
 )
