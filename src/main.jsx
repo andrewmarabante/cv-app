@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Form from './components/Form.jsx'
-import Top from './components/Top.jsx'
-import Bot from './components/Bot.jsx'
+import Bot from './Components/PageRender.jsx'
+import Top from './Components/Top.jsx'
+import Form from './Components/Form.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Top />
     <Form />
-    <Bot />
   </React.StrictMode>,
 )
