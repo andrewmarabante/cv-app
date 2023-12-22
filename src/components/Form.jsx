@@ -29,6 +29,7 @@ export default function Form(props) {
         setDateEnd(document.getElementById('newDateEnd').value)
         document.getElementById('form').style.display = 'none'
         document.getElementById('edit').style.display = 'block'
+        document.getElementById('pageRender').style.display = 'block'
     }
 
     const editForm = () =>

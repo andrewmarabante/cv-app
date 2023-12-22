@@ -1,7 +1,10 @@
+import '../styles/top.css'
 function Top()
 {
     return(
-        <h1>Top</h1>
+        <div id='top'>
+        <h1>Application</h1>
+        </div>
     )
 }
 

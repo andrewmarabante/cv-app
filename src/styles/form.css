@@ -1,3 +1,21 @@
 .form{
     text-align: center;
+    justify-content: center;
+}
+
+#pageRender{
+    text-align: center;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+#edu{
+    border-bottom: groove gray 2px;
+}
+
+#exp{
+    border-bottom: groove gray 2px;
 }
